@@ -1,0 +1,62 @@
+body{
+    background-image: url('../img/fondoo.jpg');
+    margin: 0px;
+}
+
+header{
+    background-color: lightblue;
+    margin: 0px 100px;
+    padding: 20px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 20px 40px 20px 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.img1{
+    width: 450px;
+}
+
+footer{
+    display: flex;
+    max-height: 125px;
+    margin: 0px 100px;
+    padding: 20px;
+    background-color: lightblue;
+    justify-content: end;
+}
+
+h3{
+    font-size: 25px;
+    margin: auto 10px;
+}
+
+
+.atrás{
+    height: 50px;
+    margin: auto;
+}
+
+@media (max-width: 734px){
+    .img1{
+        width: 350px;
+    }
+}

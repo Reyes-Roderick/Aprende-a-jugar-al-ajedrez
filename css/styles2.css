@@ -1,0 +1,182 @@
+body{
+   background-image: url('../img/fondoo.jpg');
+   margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px 100px;
+    padding: 20px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 100px;
+    padding: 20px 40px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.reymov{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.reinamov{
+    text-align: center;
+}
+
+.reina-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.alfilmov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.caballito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siete{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.torrez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ocho{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.peón-uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nueve{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.diez{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.enroque{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}    
+
+ul{
+text-decoration: none;
+    font-size: 25px;
+    list-style: none;
+    
+}
+
+.alpaso{
+    display: flex;
+    justify-content: center;
+}
+
+.mate{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    display: flex;
+    max-height: 125px;
+    margin: 0px 100px;
+    padding: 20px;
+    justify-content: end;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.inicio{
+    font-size: 25px;
+    font-family: serif;
+    margin: auto 10px;
+}
+
+.atras{
+   height: 50px;
+   margin: auto;
+}
+
+p{
+    font-size: 25px;
+}

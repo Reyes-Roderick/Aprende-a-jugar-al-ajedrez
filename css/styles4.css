@@ -1,0 +1,156 @@
+body{
+    background-image: url(../img/fondoo.jpg);
+    margin: 0;
+}
+
+header{
+    background-color: lightblue;
+    margin: 0px 100px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.cuerpo{
+    background-color: white;
+    margin: 0px 100px;
+    padding: 40px 50px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 30px;
+    margin: 0px 200px;
+}
+
+.grilla a{
+    background: lightcyan;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.grilla a:hover{
+    color: lightskyblue;
+    border: 2px solid mediumaquamarine;
+    transform: scale(1.1);
+}
+
+.apertura1{
+    grid-row: 1/3;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.apertura1 img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+
+.apertura2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.apertura2 img{
+    width: 180px;
+    height: 160px;
+    border-radius: 5px;
+
+}
+
+.defensa3{
+    grid-row: 2/3;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.defensa3 img{
+    width: 180px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.defensa4{
+    grid-column: 1/2;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.defensa4 img{
+    width: 180px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.defensa5{
+    grid-column: 2/3;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.defensa5 img{
+    width: 180px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    background-color: lightblue;
+    margin: 0px 100px;
+    max-height: 125px;
+    padding: 20px;
+    justify-content: end;
+}
+
+h2{
+    font-size: 25px;
+    margin: auto 10px;
+}
+
+.atras{
+    height: 50px;
+    margin: auto;
+}
+
+@media (max-width: 1600px){
+    .grilla{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .apertura1{
+        font-size: 25px;
+    }
+
+    .apertura1 img{
+        width: 180px;
+        height: 160px;
+    }
+}
