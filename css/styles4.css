@@ -139,6 +139,23 @@ h2{
 }
 
 @media (max-width: 1600px){
+
+    header{
+        margin: 0px 30px;
+    }
+
+    .cuerpo{
+        margin: 0px 30px;
+    }
+
+    footer{
+        margin: 0px 30px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
     .grilla{
         display: flex;
         flex-direction: column;
@@ -150,7 +167,27 @@ h2{
     }
 
     .apertura1 img{
-        width: 180px;
-        height: 160px;
+        width: 160px;
+        height: 140px;
+    }
+    
+    .apertura2 img{
+        width: 160px;
+        height: 140px;
+    }
+    
+    .defensa3 img{
+        width: 160px;
+        height: 140px;
+    }
+    
+    .defensa4 img{
+        width: 160px;
+        height: 140px;
+    }
+    
+    .defensa5 img{
+        width: 160px;
+        height: 140px;
     }
 }
