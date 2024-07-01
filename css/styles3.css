@@ -57,6 +57,35 @@ h3{
 
 @media (max-width: 734px){
     .img1{
-        width: 350px;
+        width: 150px;
+    }
+
+    header{
+        margin: 0px 30px;
+    }
+
+    main{
+        margin: 0px 30px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    footer{
+        margin: 0px 30px;
+        padding: 20px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+
+    .atrás{
+        height: 45px;
     }
 }

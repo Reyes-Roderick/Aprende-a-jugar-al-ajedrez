@@ -191,4 +191,8 @@ p{
         align-items: center;
         transition: transform 200ms ease;
     }
+
+    p{
+        font-size: 10px;
+    }
 }

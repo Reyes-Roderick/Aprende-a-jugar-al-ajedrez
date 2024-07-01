@@ -87,24 +87,10 @@ h6{
     align-items: center;
 }
 
-.siete{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-    font-family: sans-serif;
-}
-
 .torrez{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.ocho{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-    font-family: sans-serif;
 }
 
 .peón-uno{
@@ -115,16 +101,9 @@ h6{
 
 .nueve{
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: bolder;
     text-decoration: underline;
-    font-family: sans-serif;
-}
-
-.diez{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
     font-family: sans-serif;
 }
 
@@ -140,7 +119,7 @@ h6{
 
 ul{
 text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     list-style: none;
     
 }
@@ -179,4 +158,63 @@ footer{
 
 p{
     font-size: 25px;
+}
+
+@media (max-width:734px){
+    header{
+        margin: 0px 30px;
+    }
+
+    main{
+        margin: 0px 30px;
+    }
+
+    footer{
+        margin: 0px 30px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    h4{
+        font-size: 32px;
+    }
+
+    h5{
+        font-size: 32px;
+    }
+
+    h6{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .nueve{
+        font-size: 30px;
+    }
+
+    img{
+        width: 225px;
+    }
+
+    .inicio{
+        font-size: 20px;
+    }
+
+    .atras{
+        height: 40px;
+        width: 40px;
+    }
 }
